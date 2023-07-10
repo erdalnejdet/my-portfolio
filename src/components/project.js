@@ -11,6 +11,10 @@ const Project = () => {
       text: './images/weather.png',
       link: 'https://example.com/project2',
     },
+    {
+        text: './images/3.png',
+        link: 'https://example.com/project2',
+      },
    
   ];
 
@@ -31,7 +35,7 @@ const Project = () => {
                 </div>
                 <div className="project-main-content">
                   <a href={project.link} target="_blank" rel="noopener noreferrer">
-                    Project {index + 1}
+                    Project 
                   </a>
                 </div>
               </div>
