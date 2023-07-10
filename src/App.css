@@ -1,0 +1,28 @@
+*{
+  text-decoration: none!important;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: #000c1f;
+}
+
+img{
+  max-width: 100%;
+}
+p{
+  font-size: 19px;
+  font-weight: 400;
+  margin: 0;
+  text-align: justify;
+  color: #fff;
+  line-height: 1.3em;
+}
+h1{
+  font-size: 34px;
+  font-weight: 500;
+  color: #fff;
+
+}

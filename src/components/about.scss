@@ -1,0 +1,27 @@
+.about {
+    padding: 75px 0;
+  
+    img {
+      border-radius: 10px;
+      position: relative;
+      animation: slideUpDown 6s infinite;
+      animation-direction: alternate;
+    }
+  
+    @keyframes slideUpDowns {
+      0% {
+        transform: translateY(-15px);
+      }
+      100% {
+        transform: translateY(15px);
+      }
+    }
+    &-main{
+        margin-left: 35px;
+    }
+    p{
+        padding-top: 50px;
+      
+    }
+  }
+  
