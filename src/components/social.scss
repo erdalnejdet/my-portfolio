@@ -1,0 +1,33 @@
+.social{
+    position: relative;
+  
+    ul{
+        position: fixed;
+        z-index: 1;
+        left: 0;
+        top: 50%;
+        border-radius: 0 4px 4px 0;
+        margin: 0;
+        padding: 0;
+        li{
+            list-style: none; 
+            color: #fff;
+            a{
+                display: flex;
+                align-items: center;
+                gap:12px;
+                background-color: #5022a6;
+                padding: 4px;
+                border-radius: 5px;
+                p{
+                    visibility: hidden;
+                    display: none;
+                }
+             img{
+                width: 36px;
+                height: 36px;
+             }
+            }
+        }
+    }
+}

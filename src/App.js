@@ -5,6 +5,7 @@ import Ability from './components/ability';
 import Project from './components/project';
 import Experience from './components/experience';
 import Contact from './components/contact';
+import Social from './components/social';
 function App() {
   return (
     <div>
@@ -14,6 +15,7 @@ function App() {
        <Project/>
        <Experience/>
        <Contact/>
+       <Social/>
     </div>
   );
 }

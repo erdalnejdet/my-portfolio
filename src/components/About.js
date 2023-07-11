@@ -45,7 +45,7 @@ const About = () => {
           </div>
           <div className="col-12 col-md-6 col-lg-6">
             <div className='about-main'>
-            <h1>Hi I'M Nejdet <br/><span></span></h1><br></br>
+            <h1>Hi I'M {} <br/><span></span></h1><br></br>
              <p>
              Hello, my name is Nejdet. I am graduated from the department of Computer Programming in Namık Kemal University. I am in the process to develop myself in the field of Front-end developer. The languages which I am using at the present time are Html css js jquery scss boostrap, Reactjs vuejs. I am continuing to develop myself.
              </p>

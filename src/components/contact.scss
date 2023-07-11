@@ -1,8 +1,47 @@
 .contact{
     padding: 75px 0;
+    text-align: center;
+
+    h4{
+        text-transform: uppercase;
+        color: white;
+        font-size: 35px;
+        position: relative;
+        display: inline-block;
+        padding: 0 60px;
+        span{
+            text-align: center;
+            display: block;
+        
+            &::before{
+                content: "";
+                position: absolute;
+                top: 0;
+                left: 0;
+                bottom: 0;
+                width: 52px;
+                height: 5px;
+                margin: auto 0;
+                background-color: #5022a6;
+            }
+            &::after{
+                content: "";
+                position: absolute;
+                top: 0;
+                right: 0;
+                bottom: 0;
+                width: 52px;
+                height: 5px;
+                margin: auto 0;
+                background-color: #5022a6;
+            }
+        }
+    
+    }
     form{
-        background: rgba(245, 222, 179, 0.295);
-        max-width: 850px;
+    
+        margin-top: 55px;
+        
    .form-group{
     position: relative;
     label{
@@ -10,9 +49,9 @@
         font-size: 18px;
         color: #fff;
         margin: 8px 0;
-        position: absolute;
-bottom: 0;
-padding: 0 12px;
+        text-align: left;
+
+
        }
        input{
         width: 100%;
@@ -24,11 +63,30 @@ padding: 0 12px;
         outline: none;
         position: relative;
        }
-   }
-   input:focus + label {
-    top: -100%;
-  }
-    }
-
+       textarea{
+        resize: none;
+        width: 100%;
+        padding: 15px 18px;
+        border-radius: 8px;
+        border: 1px solid #fff3;
+        background: #ffffff24;
+        color: #fff;
+        outline: none;
+       }
+     
 }
-
+    }
+    button{
+        display: inline-block;
+        margin-top: 45px;
+        padding: 10px 50px;
+        font-size: 18px;
+        font-weight: 400;
+        border: none;
+        outline: none;
+        background-color: #5022a6;
+        color: #fff;
+        border-radius: 8px;
+        
+       }
+}
