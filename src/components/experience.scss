@@ -1,0 +1,116 @@
+.experince{
+    text-align: center;
+    
+    padding: 75px 0;
+    position: relative;
+    &::before{
+        content: '';
+        position: absolute;
+        top: 60%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 8px;
+        background-color: #5022a6;
+        min-height: 320px;
+    }
+    h4{
+        color: #fff;
+    }
+    h2{
+        text-transform: uppercase;
+        color: white;
+        font-size: 35px;
+        position: relative;
+        display: inline-block;
+        padding: 0 60px;
+        margin: 25px 0;
+        span{
+            text-align: center;
+            display: block;
+        
+            &::before{
+                content: "";
+                position: absolute;
+                top: 0;
+                left: 0;
+                bottom: 0;
+                width: 52px;
+                height: 5px;
+                margin: auto 0;
+                background-color: #5022a6;
+            }
+            &::after{
+                content: "";
+                position: absolute;
+                top: 0;
+                right: 0;
+                bottom: 0;
+                width: 52px;
+                height: 5px;
+                margin: auto 0;
+                background-color: #5022a6;
+            }
+        }
+    
+    }
+    &-main{
+        border: 1px solid #fff3;
+        padding: 20px;
+        border-radius: 8px;
+        background: #ffffff24;
+        text-align: start;
+        
+      
+        
+        span{
+            display: block;
+            color: #fff;
+            margin-top: 12px;
+        }
+    
+    }
+    .col-12{
+        margin-top: 45px;
+    }
+}
+
+
+.experince-main.right {
+    position: relative
+  }
+  .experince-main.right::before{
+    position: absolute;
+   top: 50%;
+   right: -121px;
+    margin: auto 0;
+    content: '';
+    height: 8px;
+    width: 115px;
+    background-color: #5022a6;;
+    
+  }
+
+  .experince-main.left {
+    position: relative
+  }
+  .experince-main.left::before{
+    position: absolute;
+   top: 50%;
+   left: -120px;
+    margin: auto 0;
+    content: '';
+    height: 8px;
+    width: 115px;;
+    background-color: #5022a6;;
+    
+  }
+
+  @media screen and (max-width: 900px) {
+    .experince-main.left::before,
+    .experince-main.right::before,
+    .experince::before{
+        display: none;
+    }
+  }
+
+  
